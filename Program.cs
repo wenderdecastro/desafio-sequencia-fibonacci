@@ -4,7 +4,7 @@ int numeroTotal = 0;
 while(numeroTotal < 500)
 {
     numeroTotal = numero1 + numero2;
-    Console.WriteLine($"{numeroTotal}");
+    Console.WriteLine(numeroTotal);
     numero1 = numero2;
     numero2 = numeroTotal;
 }
